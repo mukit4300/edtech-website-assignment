@@ -1,4 +1,9 @@
 
-  .container img {
-    filter: brightness(5%);
+  .regbtn{
+    padding-left: 400px;
+    padding-bottom: 45px;
+  }
+  .maine{
+    font-size: 50px;
+    padding-bottom: 25px;
   }
