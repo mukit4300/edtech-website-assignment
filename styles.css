@@ -19,7 +19,7 @@
   .fa-regular{
     color:rgb(255, 225, 0) ;
   }
-.carousel-control-prev{
+.mine{
   font-weight: 700;
   background-color: rgb(102, 104, 113);
   height: 40px;
@@ -27,7 +27,7 @@
   margin-top: 150px;
   border-radius: 50%;
 }
-.carousel-control-next{
+.mine{
   font-weight: 700;
   background-color: rgb(2, 17, 88);
   height: 40px;
