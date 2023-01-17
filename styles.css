@@ -1,10 +1,37 @@
 
   .regbtn{
-    padding-left: 400px;
+    
     padding-bottom: 45px;
+  }
+  .regbtn .btn{
+    background-color: rgb(253, 253, 253);
+    color: rgb(47, 197, 197);
+    border: none;
+    margin-left: 180px;
   }
   .maine{
     font-size: 50px;
     padding-bottom: 25px;
   }
-  
+  .fa-star {
+    color: rgb(255, 225, 0);
+  }
+  .fa-regular{
+    color:rgb(255, 225, 0) ;
+  }
+.carousel-control-prev{
+  font-weight: 700;
+  background-color: rgb(102, 104, 113);
+  height: 40px;
+  width: 40px;
+  margin-top: 150px;
+  border-radius: 50%;
+}
+.carousel-control-next{
+  font-weight: 700;
+  background-color: rgb(2, 17, 88);
+  height: 40px;
+  width: 40px;
+  margin-top: 150px;
+  border-radius: 50%;
+}

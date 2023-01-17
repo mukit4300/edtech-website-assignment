@@ -6,6 +6,9 @@
     <title>Bootstrap demo</title>
     <!--bootstrap css link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!--font awsome link-->
+    <script src="https://kit.fontawesome.com/e660906525.js" crossorigin="anonymous"></script>
+    <!--css link-->
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -241,7 +244,7 @@
 </div>
     <!--successful students part-->
     <div class="studentbox">
-      <div>
+      <div class="pb-3 pt-5">
         <h1>Meet Our Successful Students</h1>
         <p class="text-muted">It is a long established fact that a reader<br> will be distracted by the readable content of a page when looking at its layout.</p>
       </div>
@@ -282,13 +285,151 @@
       <div class="text-center pt-5">
         <button class="btn btn-info text-white">View All</button>
       </div>
+      </div>
+    <!--student's feedback-->
+      <div class="students">
+        <div class="std-title text-center pt-5 pb-3">
+          <h1>Some Student's Feedback</h1>
+          <p class="text-muted">Lorem ipsum dolor<br> sit amet consectetur adipisicing elit. Autem quo animi beatae itaque adipisci error.</p>
+        </div>
 
-    </div>
+<!--card part-->
+       
+       <!--corosel-->
+       <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="d-flex justify-content-between ">
+          <div class="card p-3 ">
+            <div class="card-body">
+              <div class="d-flex justify-content-between pb-3">
+                <img src="images/comma.png" alt="">
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <p class="card-text">  There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration in some form, by injected
+                humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem.</p>
+              <div class="d-flex pt-2">
+                <img src="images/student/student-5.png" alt="">
+                <div class="ps-3">
+                  <h6>Awlad Hossain</h6>
+                  <p class="text-muted">UI Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card p-3">
+            <div class="card-body">
+              <div class="d-flex justify-content-between pb-3 ">
+                <img src="images/comma.png" alt="">
+                <div class="rate">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+              </div>
+              <p class="card-text">  There are many variations of passages of Lorem Ipsum available, but
+                the majority have suffered alteration in some form, by injected
+                humour, or randomised words which don't look even slightly
+                believable. If you are going to use a passage of Lorem.</p>
+              <div class="d-flex pt-2 ">
+                <img  src="images/student/student-6.png" alt="">
+                <div class="ps-3">
+                  <h6>Shanta Akhter</h6>
+                  <p class="text-muted">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>  
+      </div>
+<!---FAQ part--->
+      <div class="p-5">
+        <div class="text-center">
+          <h1>Frequently Asked Question</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat repellendus ea molestias rem eum veritatis in ullam ex. Obcaecati, repudiandae?</p>
+        </div>
+        <!--accordion-->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                what is the difference between bootstrap and tailwind?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                Bootstrap is a component-based framework, which means it comes with prebuilt components and includes other utilities for layering displays, spacing, etc. Tailwind, on the other hand, CSS is a utility-first framework. Using Tailwind CSS is akin to writing regular CSS. Unlike Bootstrap, it has no prebuilt components
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                CSS Grid vs. Bootstrap: All You Need To Know.
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>
+                  Both CSS Grid and Bootstrap give the user responsive designs. But CSS Grid does not have predefined grid breakpoints, whereas Bootstrap has predefined breakpoints based on the min-width media queries. This means that they apply to that breakpoint and all the ones above it.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                What are the 5 examples of CSS framework?
+
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+               <li> Tailwind CSS: Low level, utility-first framework. </li>
+                <li>Bootstrap: World's Most Popular Framework.</li>
+                <li>Materialize CSS: A Material Design Based CSS Framework.</li>
+                <li>Material Design Lite: Light framework based on Material Design.</li>
+                <li>Foundation: The Most Advanced Front-end Framework.</li>
+
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      
     </main>
 
 
-<!--practice trial-->
 
+
+<!--rating icon-
+  
+          <div>
+            <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+  
+  ->
 
 
     <!--javascript link-->
